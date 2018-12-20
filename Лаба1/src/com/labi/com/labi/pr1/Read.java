@@ -1,15 +1,15 @@
 package com.labi.com.labi.pr1;
 
 public class Read {
-    private String avthor="";
+    private String author="";
     private String title="";
     private int pagecount=1;
     public Read(String name,String firsttitle) {
-        avthor=name;
+        author=name;
         title=firsttitle;
     }
     public void getRead() {
-        System.out.print(title + " Автор книги " + avthor + " и он написал " + pagecount + " страниц.");
+        System.out.print(title + " Автор книги " + author + " и он написал " + pagecount + " страниц.");
     }
     public void changetitle(String newtitle) {
         title=newtitle;
